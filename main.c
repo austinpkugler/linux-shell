@@ -4,7 +4,7 @@
  * @brief   Custom version of the Linux shell.
  * 
  *          Compile: gcc -g -Wall main.c shell.c -o nicshell
- *          Usage:   ./nicshell
+ *          Usage:   ./shell
  * @date    2021-03-26
  * 
  */
@@ -34,7 +34,7 @@ int main(int argc, char *argv[])
     {
         char cmd[MAX_CMD];
 
-        printf("nicshell> "); // Print prompt
+        printf("shell> "); // Print prompt
         fgets(cmd, MAX_CMD, stdin);
 
         if (cmd == NULL)
