@@ -8,11 +8,11 @@ forking.
 
 Clone the shell with:
 ```
-git clone https://github.com/austinpkugler/linux-shell.git
+$ git clone https://github.com/austinpkugler/linux-shell.git
 ```
 Compile using the included makefile:
 ```
-make
+$ make
 ```
 Run the shell with
 ```
