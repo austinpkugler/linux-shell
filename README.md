@@ -1,6 +1,6 @@
 # Linux Shell
 
-A Simplified Implementation of the Linux shell using C system calls like
+A simplified implementation of the Linux shell using C system calls like
 `fork()` and `execvp()`. Processes are executed concurrently through
 forking.
 
